@@ -1,0 +1,10 @@
+li#elemento-1{
+    color: red;
+}
+ul #elemento-1{
+    font-size: 2rem;
+}
+
+/* El espacio entre los selectores indica que el primer elemento (li/ul) es padre del segundo elemento (elemento-1).  
+En la línea 1, busca un li que tenga un id llamado elemento-1
+En la línea 4, busca ub hijo de la lista, el hijo en este caso es un li, que tenga ese id. */
